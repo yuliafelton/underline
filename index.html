@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 2 underline</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {
+            font-size: 40px;
+            max-width: 1000px;
+        }
+
+        span {
+            background: linear-gradient(to right, pink, pink);
+            background-size: 0 0.1em;
+            background-position: bottom 0 left 0;
+            background-repeat: no-repeat;
+            transition: background-size 400ms;
+        }
+
+        span:hover {
+            background-size: 100% 0.1em;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur at blanditiis consequatur corporis deserunt fugiat illum quaerat quas sit unde.
+        </span>
+    </p>
+</body>
+</html>
